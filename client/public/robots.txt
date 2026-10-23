@@ -1,0 +1,8 @@
+# Public marketing pages may be indexed; the signed-in app and auth flows may not.
+User-agent: *
+Allow: /$
+Disallow: /app
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
